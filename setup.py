@@ -12,6 +12,7 @@ def ext_modules():
                      include_dirs=[numpy.get_include()],
                      # libraries=['tcl83'],
                      # library_dirs=['/usr/local/lib'],
+                     libraries=['desmume'],
                      sources=['src/desmumepy/main.cpp'])
     return [dspy]
 
